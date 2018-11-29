@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:views="clr-namespace:Good_Time.Views"
+            x:Class="Good_Time.Views.TabPage"
+            xmlns:pages="clr-namespace:Good_Time.Views"
+            Title="Good Time"
+            BarTextColor="Wheat">
+    
+    <pages:ToMePage  Title="TB To Me"  Icon="dialpad.png" />
+    <pages:FromMePage Title="TB From Me"  Icon="contact.png" />
+  </TabbedPage>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Good_Time.Views.loginPage">
+    <ContentPage.Content>
+        <StackLayout x:Name="stack_layout" VerticalOptions="Center"
+                 HorizontalOptions="FillAndExpand" Orientation="Vertical"  Spacing="15">
+            <StackLayout Margin="5" VerticalOptions="Center" x:Name="stack_registrar">
+                <Label Margin="10" HorizontalOptions="Center" FontAttributes="Bold" Text="Welcome to Good Time" FontSize="Large" TextColor="Black"  />
+
+                <Label Margin="1"  Text="Name" FontSize="Small" TextColor="Black" FontAttributes="Bold"  />
+                <Entry Margin="1" x:Name="userName" />
+                <Label Margin="1"  Text="Number" FontSize="Small" TextColor="Black" FontAttributes="Bold"  />
+                <Entry Margin="1" x:Name="userNumber" />
+
+                <!--<Button x:Name="register" Text="Register" Clicked="OnRegisterClicked" HorizontalOptions="Center" />-->
+                <Button BackgroundColor="#00688f" TextColor="White" BorderRadius="5"  x:Name="register2" Text="  Login  " Clicked="OnRegisterClicked" HorizontalOptions="Center" />
+
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

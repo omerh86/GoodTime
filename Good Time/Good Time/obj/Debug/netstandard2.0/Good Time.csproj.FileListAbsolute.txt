@@ -1,0 +1,14 @@
+C:\Good Time\Good Time\Good Time\bin\Debug\netstandard2.0\Good Time.deps.json
+C:\Good Time\Good Time\Good Time\bin\Debug\netstandard2.0\Good Time.dll
+C:\Good Time\Good Time\Good Time\bin\Debug\netstandard2.0\Good Time.pdb
+C:\Good Time\Good Time\Good Time\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Good Time\Good Time\Good Time\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Good Time\Good Time\Good Time\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Good Time\Good Time\Good Time\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Good Time\Good Time\Good Time\obj\Debug\netstandard2.0\Good Time.csproj.CoreCompileInputs.cache
+C:\Good Time\Good Time\Good Time\obj\Debug\netstandard2.0\Good Time.AssemblyInfoInputs.cache
+C:\Good Time\Good Time\Good Time\obj\Debug\netstandard2.0\Good Time.AssemblyInfo.cs
+C:\Good Time\Good Time\Good Time\obj\Debug\netstandard2.0\Good Time.dll
+C:\Good Time\Good Time\Good Time\obj\Debug\netstandard2.0\Good Time.pdb
+C:\Good Time\Good Time\Good Time\obj\Debug\netstandard2.0\Good Time.csprojAssemblyReference.cache
+C:\Good Time\Good Time\Good Time\obj\Debug\netstandard2.0\XamlC.stamp
