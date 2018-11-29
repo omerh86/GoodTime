@@ -1,2 +1,0 @@
-android.app.Application
-com.aldo.Good_Time

@@ -18,6 +18,29 @@ namespace Good_Time.Views
         public loginPage()
         {
             InitializeComponent();
+            MessagingCenter.Subscribe<loginPage>(this, "Hi", (sender) =>
+            {
+                // do something whenever the "Hi" message is sent
+            });
+        }
+
+        private void sendRegistrationMessage()
+        {
+            MessagingCenter.Subscribe<loginPage>(this, "Hi", (sender) =>
+            {
+                // do something whenever the "Hi" message is sent
+            });
+        }
+
+        private void getRegistrationToken(object sender, EventArgs e)
+        {
+            if (
+                userNumber.Text != null &&
+                userNumber.Text.Length > 0 
+                )
+            {
+                LoginService.Instance.getToken(userNumber.Text);
+            }
         }
 
         private async void OnRegisterClicked(object sender, EventArgs e)
@@ -26,17 +49,23 @@ namespace Good_Time.Views
                 userName.Text.Length > 0 &&
                 userNumber.Text != null &&
                 userNumber.Text.Length > 0 &&
-                Repository.Instance.token != null &&
-                Repository.Instance.token.Length > 0)
+                registrationToken.Text != null &&
+                registrationToken.Text.Length > 0)
             {
                 User u = new User(userName.Text, userNumber.Text, "", Repository.Instance.token);
-                bool isUploaded = await Repository.Instance.uploadUserAsync(u);
-                if (isUploaded)
+                bool isRegisterd = await LoginService.Instance.registerAsync(registrationToken.Text, u);
+                if (isRegisterd)
                 {
-                    FileSystemHelper.Instance.saveCardentials(u);
                     ((App)App.Current).MainPage = new TabPage();
-
                 }
+                else
+                {
+                    registration_status.Text = "Error!!!";
+                }
+            }
+            else
+            {
+                registration_status.Text = "Invalid Cerdentials!!!";
             }
         }
 

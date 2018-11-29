@@ -13,6 +13,7 @@ using Firebase.Database;
 using Android.Telephony;
 using Good_Time.Models;
 using Xamarin.Forms;
+using Android.Content;
 
 namespace Good_Time.Droid
 {
@@ -31,17 +32,6 @@ namespace Good_Time.Droid
             LoadApplication(new App());
             getPermissions();
             FirebaseApp.InitializeApp(this);
-           // getInfo();
-        }
-
-        private void getInfo()
-        {
-            TelephonyManager mTelephonyMgr;
-
-            mTelephonyMgr = (TelephonyManager)GetSystemService(TelephonyService);
-
-            var Number = mTelephonyMgr.Line1Number;
-
 
         }
 

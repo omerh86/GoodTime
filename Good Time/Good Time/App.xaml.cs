@@ -15,16 +15,15 @@ namespace Good_Time
         {
             InitializeComponent();
 
-            // MainPage= new NavigationPage(new TabPage());
+
             if (FileSystemHelper.Instance.loadCardentials() != null)
             {
-                  MainPage = new NavigationPage(new TabPage());
-               // MainPage = new NavigationPage(new loginPage());
+                MainPage = new NavigationPage(new TabPage());
             }
             else
             {
-                //MainPage = new NavigationPage(new TabPage());
-               MainPage = new NavigationPage(new loginPage());
+               // MainPage = new NavigationPage(new TabPage());
+                MainPage = new NavigationPage(new loginPage());
             }
 
         }

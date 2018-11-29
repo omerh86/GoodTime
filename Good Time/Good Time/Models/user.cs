@@ -5,6 +5,7 @@ namespace Good_Time.Models
     public class User
     {
         public string name { get; set; }
+        public string nameShortcut { get; set; }
         public string number { get; set; }
         public string photoUri { get; set; }
         public string token { get; set; }
@@ -18,6 +19,7 @@ namespace Good_Time.Models
             this.token = token;
             if (token != null && token.Length > 0)
                 isPingAvaliable = true;
+            this.nameShortcut = name.Substring(0,1);
 
         }
 

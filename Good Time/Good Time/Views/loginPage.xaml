@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Good_Time.Views.loginPage">
+             x:Class="Good_Time.Views.loginPage"
+             Title="Login">
     <ContentPage.Content>
         <StackLayout x:Name="stack_layout" VerticalOptions="Center"
                  HorizontalOptions="FillAndExpand" Orientation="Vertical"  Spacing="15">
@@ -10,12 +11,14 @@
 
                 <Label Margin="1"  Text="Name" FontSize="Small" TextColor="Black" FontAttributes="Bold"  />
                 <Entry Margin="1" x:Name="userName" />
-                <Label Margin="1"  Text="Number" FontSize="Small" TextColor="Black" FontAttributes="Bold"  />
-                <Entry Margin="1" x:Name="userNumber" />
+                <Label Margin="1"  Text="Number" FontSize="Small"  TextColor="Black" FontAttributes="Bold"  />
+                <Entry Margin="1" x:Name="userNumber" Keyboard="Numeric" />
+                <Label Margin="1"  Text="Code" FontSize="Small" TextColor="Black" FontAttributes="Bold"  />
+                <Entry Margin="1" x:Name="registrationToken" />
 
-                <!--<Button x:Name="register" Text="Register" Clicked="OnRegisterClicked" HorizontalOptions="Center" />-->
-                <Button BackgroundColor="#00688f" TextColor="White" BorderRadius="5"  x:Name="register2" Text="  Login  " Clicked="OnRegisterClicked" HorizontalOptions="Center" />
-
+                <Button BackgroundColor="#00688f" TextColor="White" BorderRadius="5"  x:Name="registertokenBtn" Text="  Get Code " Clicked="getRegistrationToken" HorizontalOptions="Center" />
+                <Button BackgroundColor="#00688f" Margin="10" TextColor="White" BorderRadius="5"  x:Name="logiBtn" Text="  Login  " Clicked="OnRegisterClicked" HorizontalOptions="Center" />
+                <Label x:Name="registration_status" Text="" TextColor="Red" HorizontalOptions="Center" />
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>

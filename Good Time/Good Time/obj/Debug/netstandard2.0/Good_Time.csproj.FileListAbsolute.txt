@@ -16,4 +16,3 @@ C:\Good Time\Good Time\Good Time\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Good Time\Good Time\Good Time\obj\Debug\netstandard2.0\Good_Time.csproj.CopyComplete
 C:\Good Time\Good Time\Good Time\obj\Debug\netstandard2.0\Good_Time.dll
 C:\Good Time\Good Time\Good Time\obj\Debug\netstandard2.0\Good_Time.pdb
-C:\Good Time\Good Time\Good Time\obj\Debug\netstandard2.0\Good_Time.csprojAssemblyReference.cache
