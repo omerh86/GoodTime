@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "875542256891",
+    "firebase_url": "https://good-time-465f6.firebaseio.com",
+    "project_id": "good-time-465f6",
+    "storage_bucket": "good-time-465f6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:875542256891:android:10fe08e07f5b6098",
+        "android_client_info": {
+          "package_name": "com.aldo.Good_Time"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "875542256891-ao8r7bvhmpvaf9mabkk5nt25v6v71912.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnxXz7NKvUXTp2ysK1yDO9tD9Hd438rAQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
